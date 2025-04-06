@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "js-file-download": "^0.4.12"
   }
 }
