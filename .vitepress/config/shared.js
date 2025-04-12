@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export const shared = defineConfig({
-    title: 'LINK',
+    title: ' ',
 
     rewrites: {
         'zh/:rest*': ':rest*'
@@ -16,6 +16,8 @@ export const shared = defineConfig({
     ],
 
     themeConfig: {
+        logo: { src: '/link-logo.svg', width: 60, height: 60 },
+
         socialLinks: [
             { icon: 'github', link: 'https://github.com/lnelab' }
         ]

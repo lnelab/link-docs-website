@@ -18,6 +18,11 @@ export const en = defineConfig({
             '/en/resource/': { base: '/en/resource/', items: sidebarResource() }
         },
 
+        editLink: {
+            pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+            text: 'Edit this page on GitHub'
+        },
+
         footer: {
             message: '<a href="https://beian.miit.gov.cn">苏ICP备2021037810号-1</a>',
             copyright: `Copyright © ${new Date().getFullYear()} LNE LAB`

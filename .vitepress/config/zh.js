@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export const zh = defineConfig({
     lang: 'zh-Hans',
-    description: 'LINK Documentation',
+    description: 'LINK 站点',
 
     themeConfig: {
         nav: [
@@ -16,6 +16,11 @@ export const zh = defineConfig({
         sidebar: {
             '/guide/': { base: '/guide/', items: sidebarGuide() },
             '/resource/': { base: '/resource/', items: sidebarResource() }
+        },
+
+        editLink: {
+            pattern: 'https://github.com/lnelab/link-docs-website/edit/main/:path',
+            text: '在 GitHub 上编辑此页面'
         },
 
         footer: {
