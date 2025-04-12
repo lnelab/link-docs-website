@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export const shared = defineConfig({
-    title: ' ',
+    title: 'LINK',
 
     rewrites: {
         'zh/:rest*': ':rest*'
