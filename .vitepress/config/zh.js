@@ -81,6 +81,13 @@ function sidebarGuide() {
             items: [
                 { text: '定义', link: 'definition' }
             ]
+        },
+        {
+            text: '变更日志',
+            items: [
+                { text: 'v4', link: 'v4' },
+                { text: 'v3', link: 'v3' },
+            ]
         }
     ]
 }

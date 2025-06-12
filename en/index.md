@@ -7,14 +7,14 @@ titleTemplate: 软件开发和分享
 
 hero:
   name: LINK
-  text: "专注于客制化的 \n键盘助手"
+  text: "Customized-focused \nKeyboard Assistant"
   tagline: 多功能集成、跨平台、高兼容性
   actions:
     - theme: brand
       text: What is LINK?
       link: /guide/what-is-link
     - theme: alt
-      text: 快速开始
+      text: Getting Started
       link: /guide/getting-started
 
 features:
