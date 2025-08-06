@@ -3,7 +3,7 @@
 layout: home
 
 title: LINK
-titleTemplate: 软件开发和分享
+titleTemplate: 即刻连接
 
 hero:
   name: LINK

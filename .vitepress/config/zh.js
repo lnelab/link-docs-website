@@ -24,7 +24,7 @@ export const zh = defineConfig({
         },
 
         footer: {
-            message: '<a href="https://beian.miit.gov.cn">苏ICP备2021037810号-1</a>',
+            message: '',
             copyright: `Copyright © ${new Date().getFullYear()} LNE LAB`
         },
 
