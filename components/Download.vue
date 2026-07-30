@@ -6,6 +6,12 @@ const BASE_URL = 'https://raw.githubusercontent.com/lnelab/dfu-package/main/'
 
 const deepItems = [
     {
+        name: 'Cap45',
+        files: [
+            'sirius_cap45_2601.zip'
+        ]
+    },
+    {
         name: 'Canis Major',
         files: [
             'sirius_cm_left_2501.zip',
