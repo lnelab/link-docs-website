@@ -7,6 +7,9 @@ export const shared = defineConfig({
         'zh/:rest*': ':rest*'
     },
 
+    // keep the repository readme out of the published site
+    srcExclude: ['README.md'],
+
     lastUpdated: true,
     cleanUrls: true,
     metaChunk: true,

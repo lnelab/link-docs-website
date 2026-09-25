@@ -21,13 +21,13 @@ const deepItems = [
     {
         name: 'LINKPAD',
         files: [
-            'sirius_linkpad_1u_2501.zip'
+            'sirius_linkpad_2501.zip'
         ]
     },
     {
         name: 'LINKPAD 1U',
         files: [
-            'sirius_linkpad_2501.zip'
+            'sirius_linkpad_1u_2501.zip'
         ]
     },
     {

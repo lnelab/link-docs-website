@@ -31,3 +31,4 @@ build
 # VitePress
 .vitepress/dist
 .vitepress/cache
+.vitepress/.temp
