@@ -75,9 +75,7 @@ function fileUrl(file) {
                 </p>
 
                 <p class="dfu-action">
-                    <a class="dfu-download" :href="fileUrl(model.latest.file)" :download="model.latest.file">
-                        下载 {{ model.latest.file }}
-                    </a>
+                    <a :href="fileUrl(model.latest.file)" :download="model.latest.file">{{ model.latest.file }}</a>
                 </p>
 
                 <details v-if="model.history.length" class="dfu-history">
@@ -124,22 +122,6 @@ function fileUrl(file) {
 
 .dfu-action {
     margin: 10px 0;
-}
-
-.dfu-download {
-    display: inline-block;
-    padding: 6px 14px;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--vp-c-brand-1);
-    border: 1px solid var(--vp-c-brand-1);
-    border-radius: 6px;
-    transition: background-color 0.2s, color 0.2s;
-}
-
-.dfu-download:hover {
-    color: #fff;
-    background-color: var(--vp-c-brand-1);
 }
 
 .dfu-history {
