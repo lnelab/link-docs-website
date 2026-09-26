@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
+    "prebuild": "node scripts/sync-dfu.mjs",
     "build": "vitepress build",
     "preview": "vitepress preview"
   },

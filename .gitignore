@@ -32,3 +32,6 @@ build
 .vitepress/dist
 .vitepress/cache
 .vitepress/.temp
+
+# copied from lnelab/dfu-package at build time
+public/dfu
