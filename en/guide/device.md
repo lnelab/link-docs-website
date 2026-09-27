@@ -17,6 +17,8 @@ When it comes to firmware, most enthusiasts care about the following:
 
 Besides showing this information, LINK can point you straight to the latest firmware for your device.
 
+Next to the version, LINK marks whether that firmware is the latest published release: a green "up to date" badge means it matches the release, an orange "update available" badge means a newer one has been published. The badge is only shown for keyboards running Marin Firmware.
+
 ::: tip
 If your device runs Marin Firmware, see [Firmware update](/en/guide/dfu) for upgrade instructions.
 :::
