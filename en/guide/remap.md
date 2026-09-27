@@ -13,7 +13,7 @@ Full-key customization means you can assign a keycode to every single key, exact
 Remapping is straightforward. The interface is split into three areas:
 
 - **Top** — keyboard name, layer switcher and the "automatic key selection" toggle
-- **Middle** — the keyboard graphic, where you select the key you want to remap
+- **Middle** — the keyboard view; click a keycap to select the key you want to remap
 - **Bottom** — the keycode list, where you click the keycode you want to assign
 
 Select a key and click a keycode to remap it; the change takes effect immediately. With "automatic key selection" enabled, the next key is selected automatically after each assignment, which makes remapping a run of keys much faster. The "keycode search" box above the list lets you filter by keycode name or code.
