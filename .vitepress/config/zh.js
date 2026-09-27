@@ -73,7 +73,8 @@ function sidebarGuide() {
                 { text: '宏', link: 'macros' },
                 { text: '布局', link: 'layouts' },
                 { text: '设备信息', link: 'device' },
-                { text: '固件升级', link: 'dfu' }
+                { text: '固件升级', link: 'dfu' },
+                { text: '蓝牙', link: 'bluetooth' }
             ]
         },
         {
