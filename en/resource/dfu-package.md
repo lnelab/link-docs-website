@@ -1,11 +1,11 @@
-# 固件升级库
+# Firmware library
 
-这里收录 **Marin Firmware** 内核键盘的固件更新包。文件为 zip 格式，**无需解压**，升级时直接选择即可。升级步骤见 [固件升级](/guide/dfu)。
+This library collects firmware packages for keyboards running **Marin Firmware**. The files are zip archives and do **not** need to be unpacked — just pick the file when you flash. For the upgrade steps, see [Firmware update](/en/guide/dfu).
 
-## 更新包
+## Packages
 
 <Download />
 
 ::: tip
-分体键盘的左右两半固件是分开的，各自有独立的版本号，升级时需要分别刷写。
+Split keyboards have separate firmware for each half, with independent version numbers, so both halves have to be flashed individually.
 :::

@@ -2,206 +2,214 @@
 outline: deep
 ---
 
-# 按键映射
+# Key remapping
 
-按键映射是键盘个性化的基础需求。在大部分客制化键盘玩家的概念里，可以独立设置每个按键的功能，是客制化键盘最为鲜明的特点之一，我们通常把这项功能特性称为全键自定义。
+Remapping keys is the most basic thing you want from a keyboard. For most custom keyboard enthusiasts, being able to configure every key independently is one of the defining features of the hobby — we usually call it full-key customization.
 
-全键自定义，意味着你可以根据自己的偏好，自定义每一个按键的键值。
+Full-key customization means you can assign a keycode to every single key, exactly the way you prefer.
 
-## 基础
+## Basics
 
-按键映射的过程非常简单，首先你需要在右侧的键盘中选中要映射的按键，然后在左侧列表中点击你想要设置的键值，即可完成一个按键的映射流程，键值的更新将立即生效。
+Remapping is straightforward. The interface is split into three areas:
 
-## 层级切换
+- **Top** — keyboard name, layer switcher and the "automatic key selection" toggle
+- **Middle** — the keyboard graphic, where you select the key you want to remap
+- **Bottom** — the keycode list, where you click the keycode you want to assign
 
-键盘的每个按键在不同“层”上可以定义不同的功能。可以把层想象成叠加在一起的透明薄膜，每一层上都印有不同的键值。当你按下某个键时，键盘会从当前激活的层中读取该键对应的功能。
+Select a key and click a keycode to remap it; the change takes effect immediately. With "automatic key selection" enabled, the next key is selected automatically after each assignment, which makes remapping a run of keys much faster. The "keycode search" box above the list lets you filter by keycode name or code.
 
-默认情况下，键盘处于基础层（通常为层 0），这里定义了常规的按键。
+## Layer switching
 
-通过切换层，可以临时或永久地改变按键的功能，实现类似 Fn 键的效果，或者创建多个功能层，比如游戏层、编程层、媒体控制层等。
+The layer buttons at the top of the interface switch the layer you are currently viewing and editing.
 
-- `MO(0)` - 按住时激活层 0，松开回到原层
+Every key can be assigned a different function on each layer. Think of layers as transparent sheets stacked on top of each other, each printed with its own set of keycodes. When you press a key, the keyboard reads its function from the currently active layers.
 
-- `MO(1)` - 按住时激活层 1，松开回到原层
+By default the keyboard sits on the base layer (usually layer 0), which holds the regular keycodes.
 
-- `MO(2)` - 按住时激活层 2，松开回到原层
+Switching layers changes what keys do, temporarily or permanently. That is how an Fn key works, and how you can build separate layers for gaming, programming or media control.
 
-- `MO(3)` - 按住时激活层 3，松开回到原层
+- `MO(0)` - Activates layer 0 while held, returns to the previous layer on release
 
-- `MO(4)` - 按住时激活层 4，松开回到原层
+- `MO(1)` - Activates layer 1 while held, returns to the previous layer on release
 
-- `MO(5)` - 按住时激活层 5，松开回到原层
+- `MO(2)` - Activates layer 2 while held, returns to the previous layer on release
 
-- `MO(6)` - 按住时激活层 6，松开回到原层
+- `MO(3)` - Activates layer 3 while held, returns to the previous layer on release
 
-- `MO(7)` - 按住时激活层 7，松开回到原层
+- `MO(4)` - Activates layer 4 while held, returns to the previous layer on release
 
-- `DF(0)` - 将层 0 设为默认层
+- `MO(5)` - Activates layer 5 while held, returns to the previous layer on release
 
-- `DF(1)` - 将层 1 设为默认层
+- `MO(6)` - Activates layer 6 while held, returns to the previous layer on release
 
-- `DF(2)` - 将层 2 设为默认层
+- `MO(7)` - Activates layer 7 while held, returns to the previous layer on release
 
-- `DF(3)` - 将层 3 设为默认层
+- `DF(0)` - Sets layer 0 as the default layer
 
-- `DF(4)` - 将层 4 设为默认层
+- `DF(1)` - Sets layer 1 as the default layer
 
-- `DF(5)` - 将层 5 设为默认层
+- `DF(2)` - Sets layer 2 as the default layer
 
-- `DF(6)` - 将层 6 设为默认层
+- `DF(3)` - Sets layer 3 as the default layer
 
-- `DF(7)` - 将层 7 设为默认层
+- `DF(4)` - Sets layer 4 as the default layer
 
-- `TG(0)` - 按下时激活层 0，再次按下时关闭层 0
+- `DF(5)` - Sets layer 5 as the default layer
 
-- `TG(1)` - 按下时激活层 1，再次按下时关闭层 1
+- `DF(6)` - Sets layer 6 as the default layer
 
-- `TG(2)` - 按下时激活层 2，再次按下时关闭层 2
+- `DF(7)` - Sets layer 7 as the default layer
 
-- `TG(3)` - 按下时激活层 3，再次按下时关闭层 3
+- `TG(0)` - Activates layer 0 on press and deactivates it on the next press
 
-- `TG(4)` - 按下时激活层 4，再次按下时关闭层 4
+- `TG(1)` - Activates layer 1 on press and deactivates it on the next press
 
-- `TG(5)` - 按下时激活层 5，再次按下时关闭层 5
+- `TG(2)` - Activates layer 2 on press and deactivates it on the next press
 
-- `TG(6)` - 按下时激活层 6，再次按下时关闭层 6
+- `TG(3)` - Activates layer 3 on press and deactivates it on the next press
 
-- `TG(7)` - 按下时激活层 7，再次按下时关闭层 7
+- `TG(4)` - Activates layer 4 on press and deactivates it on the next press
 
-- `TT(0)` - 轻按切换层 0 的开关，连续轻按多次激活层 0
+- `TG(5)` - Activates layer 5 on press and deactivates it on the next press
 
-- `TT(1)` - 轻按切换层 1 的开关，连续轻按多次激活层 1
+- `TG(6)` - Activates layer 6 on press and deactivates it on the next press
 
-- `TT(2)` - 轻按切换层 2 的开关，连续轻按多次激活层 2
+- `TG(7)` - Activates layer 7 on press and deactivates it on the next press
 
-- `TT(3)` - 轻按切换层 3 的开关，连续轻按多次激活层 3
+- `TT(0)` - Toggles layer 0 on tap; tapping it repeatedly activates layer 0
 
-- `TT(4)` - 轻按切换层 4 的开关，连续轻按多次激活层 4
+- `TT(1)` - Toggles layer 1 on tap; tapping it repeatedly activates layer 1
 
-- `TT(5)` - 轻按切换层 5 的开关，连续轻按多次激活层 5
+- `TT(2)` - Toggles layer 2 on tap; tapping it repeatedly activates layer 2
 
-- `TT(6)` - 轻按切换层 6 的开关，连续轻按多次激活层 6
+- `TT(3)` - Toggles layer 3 on tap; tapping it repeatedly activates layer 3
 
-- `TT(7)` - 轻按切换层 7 的开关，连续轻按多次激活层 7
+- `TT(4)` - Toggles layer 4 on tap; tapping it repeatedly activates layer 4
 
-- `TO(0)` - 关闭除层 0 以外的所有非默认层，让键盘完全使用层 0 的映射
+- `TT(5)` - Toggles layer 5 on tap; tapping it repeatedly activates layer 5
 
-- `TO(1)` - 关闭除层 1 以外的所有非默认层，让键盘完全使用层 1 的映射
+- `TT(6)` - Toggles layer 6 on tap; tapping it repeatedly activates layer 6
 
-- `TO(2)` - 关闭除层 2 以外的所有非默认层，让键盘完全使用层 2 的映射
+- `TT(7)` - Toggles layer 7 on tap; tapping it repeatedly activates layer 7
 
-- `TO(3)` - 关闭除层 3 以外的所有非默认层，让键盘完全使用层 3 的映射
+- `TO(0)` - Deactivates every non-default layer except layer 0, so the keyboard uses only the layer 0 keymap
 
-- `TO(4)` - 关闭除层 4 以外的所有非默认层，让键盘完全使用层 4 的映射
+- `TO(1)` - Deactivates every non-default layer except layer 1, so the keyboard uses only the layer 1 keymap
 
-- `TO(5)` - 关闭除层 5 以外的所有非默认层，让键盘完全使用层 5 的映射
+- `TO(2)` - Deactivates every non-default layer except layer 2, so the keyboard uses only the layer 2 keymap
 
-- `TO(6)` - 关闭除层 6 以外的所有非默认层，让键盘完全使用层 6 的映射
+- `TO(3)` - Deactivates every non-default layer except layer 3, so the keyboard uses only the layer 3 keymap
 
-- `TO(7)` - 关闭除层 7 以外的所有非默认层，让键盘完全使用层 7 的映射
+- `TO(4)` - Deactivates every non-default layer except layer 4, so the keyboard uses only the layer 4 keymap
 
-- `OSL(0)` - 按一次后，接下来按下的任意键都使用层 0 的定义，之后恢复正常
+- `TO(5)` - Deactivates every non-default layer except layer 5, so the keyboard uses only the layer 5 keymap
 
-- `OSL(1)` - 按一次后，接下来按下的任意键都使用层 1 的定义，之后恢复正常
+- `TO(6)` - Deactivates every non-default layer except layer 6, so the keyboard uses only the layer 6 keymap
 
-- `OSL(2)` - 按一次后，接下来按下的任意键都使用层 2 的定义，之后恢复正常
+- `TO(7)` - Deactivates every non-default layer except layer 7, so the keyboard uses only the layer 7 keymap
 
-- `OSL(3)` - 按一次后，接下来按下的任意键都使用层 3 的定义，之后恢复正常
+- `OSL(0)` - After a single press, the next key pressed uses the layer 0 definition, then returns to normal
 
-- `OSL(4)` - 按一次后，接下来按下的任意键都使用层 4 的定义，之后恢复正常
+- `OSL(1)` - After a single press, the next key pressed uses the layer 1 definition, then returns to normal
 
-- `OSL(5)` - 按一次后，接下来按下的任意键都使用层 5 的定义，之后恢复正常
+- `OSL(2)` - After a single press, the next key pressed uses the layer 2 definition, then returns to normal
 
-- `OSL(6)` - 按一次后，接下来按下的任意键都使用层 6 的定义，之后恢复正常
+- `OSL(3)` - After a single press, the next key pressed uses the layer 3 definition, then returns to normal
 
-- `OSL(7)` - 按一次后，接下来按下的任意键都使用层 7 的定义，之后恢复正常
+- `OSL(4)` - After a single press, the next key pressed uses the layer 4 definition, then returns to normal
 
-## 鼠标模拟
+- `OSL(5)` - After a single press, the next key pressed uses the layer 5 definition, then returns to normal
 
-鼠标模拟即通过按键模拟鼠标的各种操作。
+- `OSL(6)` - After a single press, the next key pressed uses the layer 6 definition, then returns to normal
 
-- `Mouse ↑` - 向上移动光标
+- `OSL(7)` - After a single press, the next key pressed uses the layer 7 definition, then returns to normal
 
-- `Mouse ↓` - 向下移动光标
+## Mouse emulation
 
-- `Mouse ←` - 向左移动光标
+Mouse emulation lets a key perform mouse actions.
 
-- `Mouse →` - 向右移动光标
+- `Mouse ↑` - Moves the cursor up
 
-- `Mouse Btn1` - 按下按键 1
+- `Mouse ↓` - Moves the cursor down
 
-- `Mouse Btn2` - 按下按键 2
+- `Mouse ←` - Moves the cursor left
 
-- `Mouse Btn3` - 按下按键 3
+- `Mouse →` - Moves the cursor right
 
-- `Mouse Btn4` - 按下按键 4
+- `Mouse Btn1` - Presses mouse button 1
 
-- `Mouse Btn5` - 按下按键 5
+- `Mouse Btn2` - Presses mouse button 2
 
-- `Mouse Btn6` - 按下按键 6
+- `Mouse Btn3` - Presses mouse button 3
 
-- `Mouse Btn7` - 按下按键 7
+- `Mouse Btn4` - Presses mouse button 4
 
-- `Mouse Btn8` - 按下按键 8
+- `Mouse Btn5` - Presses mouse button 5
 
-- `Mouse Wh↑` - 向上滚动滚轮
+- `Mouse Btn6` - Presses mouse button 6
 
-- `Mouse Wh↓` - 向下滚动滚轮
+- `Mouse Btn7` - Presses mouse button 7
 
-- `Mouse Wh←` - 向左滚动滚轮
+- `Mouse Btn8` - Presses mouse button 8
 
-- `Mouse Wh→` - 向右滚动滚轮
+- `Mouse Wh↑` - Scrolls the wheel up
 
-- `Mouse Acc0` - 设置速度为 0
+- `Mouse Wh↓` - Scrolls the wheel down
 
-- `Mouse Acc1` - 设置速度为 1
+- `Mouse Wh←` - Scrolls the wheel left
 
-- `Mouse Acc2` - 设置速度为 2
+- `Mouse Wh→` - Scrolls the wheel right
 
-## 高级按键
+- `Mouse Acc0` - Sets the pointer speed to 0
 
-我们在键值菜单中可以找到高级按键的页签。这些按键不同于其他按键，通常需要通过简单的对话框来完成编辑。
+- `Mouse Acc1` - Sets the pointer speed to 1
+
+- `Mouse Acc2` - Sets the pointer speed to 2
+
+## Advanced keys
+
+The advanced keys have their own tab in the keycode menu. Unlike regular keycodes they are usually configured through a small dialog.
 
 ### Mod-Tap
 
-当按住 Mod-Tap 键 `MT(mod, kc)` 时，它会作为修饰键（modifier）的功能，而在轻按时则作为普通按键键码（keycode）的功能。
+Holding a Mod-Tap key `MT(mod, kc)` makes it act as a modifier, while tapping it makes it act as a regular keycode.
 
 ```
 MT(MOD_LCTL | MOD_LSFT, KC_ESC)
 ```
 
-该按键在按住时会激活左 Control 和左 Shift ，并在轻按时发送 Escape 键。
+This key activates left Control and left Shift while held, and sends Escape when tapped.
 
 ### Modifier Keys
 
- `MK(mod, kc)` 可以将修饰键和基础按键组合起来。按下时，首先发送修饰键的 keydown 事件，然后发送按键代码。释放时，先发送按键代码的 keyup 事件，然后发送修饰键。
+`MK(mod, kc)` combines a modifier with a base key. On press it sends the modifier keydown event first and then the keycode. On release it sends the keycode keyup event first and then the modifier.
 
- 使用 `MK(mod, kc)` 的直观感受就好像是同时按下了修饰键和基础按键，如果你不想使用宏来模拟按键动作，这个按键在很多时候可以替代一些组合键。
+Using `MK(mod, kc)` feels like pressing the modifier and the base key at the same time. If you would rather not emulate a key combination with a macro, this key can often replace it.
 
 ```
 MK(MOD_LCTL | MOD_LALT, KC_DEL)
 ```
 
-该按键在按下时会在激活左 Control 和左 Alt 的同时发送 Delete 键。
+This key sends Delete while left Control and left Alt are active.
 
 ### Endpoint
 
 ::: tip
-该部分按键适用于 Marin Firmware 内核
+These keys apply to keyboards running Marin Firmware
 :::
 
-在键盘的选项里我们可以找到输出选项，通过点击下拉框可以选择USB或者蓝牙为键盘的首选输出。
+The output option can be found in the keyboard's options panel, where the preferred output of the keyboard can be selected as USB or Bluetooth from a dropdown.
 
-在键盘同时连接着USB和蓝牙的时候，键盘将根据该选项，向首选的端点输出数据报文，例如键盘连接USB时，优先向蓝牙端点输出报文数据。
+When the keyboard is connected over USB and Bluetooth at the same time, it sends its report to the preferred endpoint. For example, with USB connected, it can send reports to the Bluetooth endpoint first.
 
-在高级按键里可以找到3个端点控制按键用于通过键盘按键快速的切换首先输出：
+Three endpoint control keys are available in the advanced keys, so the preferred output can be switched directly from the keyboard:
 
-- `Endpoint Toggle`：在USB和蓝牙输出之间来回切换
-- `Endpoint USB`：将首选输出切换到USB端点
-- `Endpoint BLE`：将首先输出切换到蓝牙端点
+- `Endpoint Toggle`: Switches the preferred output back and forth between USB and Bluetooth
+- `Endpoint USB`: Switches the preferred output to the USB endpoint
+- `Endpoint BLE`: Switches the preferred output to the Bluetooth endpoint
 
-我们可以在适合的键位设置这些按键，更加快捷的切换首选输出。
+Assigning these keys to convenient positions makes switching the preferred output much quicker.
 
-### Any 
+### Any
 
-`Any` 即自定义按键，你可以在对话框中输入键值、带有参数的组合键或者 16 进制格式的数值，LINK 将根据你的输入自动计算生成对应的按键。
+`Any` is a custom key: you can enter a keycode, a key combination with parameters, or a hexadecimal value in the dialog, and LINK works out the corresponding key from your input.

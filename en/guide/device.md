@@ -1,22 +1,22 @@
-# 设备信息
+# Device information
 
-## 规格
+## Specification
 
-规格信息包括设备的名称、制造商、序列号以及协议版本号。
+The specification covers the device name, manufacturer, serial number and protocol version.
 
-协议版本号即 LINK 或 VIA 的通信协议版本，较低的版本号可能会影响某些功能配置的使用。
+The protocol version is the communication protocol version of LINK or VIA. A lower version may limit some of the configuration features.
 
-## 固件
+## Firmware
 
-对于设备的固件信息，相信大部分的玩家都会关注以下几点：
+When it comes to firmware, most enthusiasts care about the following:
 
-- 固件的类型是什么？
-- 固件的版本号是多少？
-- 固件版本是否已经更新至最新？
-- 如何获取最新的固件？
+- What kind of firmware is running?
+- Which version is it?
+- Is it up to date?
+- How do I get the latest firmware?
 
-除了显示固件的相关信息，LINK 能够快速引导玩家获取对应设备的最新固件。
+Besides showing this information, LINK can point you straight to the latest firmware for your device.
 
 ::: tip
-如果设备搭载的内核为 Marin Firmware，请移步 [固件升级](/guide/dfu) 了解如何升级固件。
+If your device runs Marin Firmware, see [Firmware update](/en/guide/dfu) for upgrade instructions.
 :::

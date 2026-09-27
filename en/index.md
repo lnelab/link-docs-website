@@ -7,28 +7,27 @@ titleTemplate: Ready to LINK
 
 hero:
   name: LINK
-  text: "Customized-focused \nKeyboard Assistant"
-  tagline: 多功能集成、跨平台、高兼容性
+  text: "Custom keyboards,\nfully in your control"
+  tagline: All-in-one, cross-platform, highly compatible
   actions:
     - theme: brand
       text: What is LINK?
-      link: /guide/what-is-link
+      link: /en/guide/what-is-link
     - theme: alt
       text: Getting Started
-      link: /guide/getting-started
+      link: /en/guide/getting-started
 
 features:
   - icon: 📦
-    title: 简单易用
-    details: LINK 自始至终是为了便于使用而设计的，从而方便地管理您的键盘。
+    title: Simple to use
+    details: LINK is designed around ease of use, so managing your keyboard stays effortless.
   - icon: 🚀
-    title: 丰富的功能
-    details: LINK 提供了丰富多样的功能，持续的迭代赋予了其更多的可能性。
+    title: Rich features
+    details: LINK packs a wide range of features, and every release adds more.
   - icon: ⚙️
-    title: 出色的兼容性
-    details: LINK 具备出色的兼容性，让您能够轻松的驾驭多种键盘及其配列。
+    title: Excellent compatibility
+    details: LINK handles a wide variety of keyboards and layouts with ease.
   - icon: 🧩
-    title: 持续更新
-    details: 持续不断的迭代赋予 LINK 更为持久的生命力。
+    title: Always improving
+    details: Continuous iteration keeps LINK useful for a long time to come.
 ---
-

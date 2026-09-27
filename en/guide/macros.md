@@ -1,27 +1,29 @@
-# 宏
+# Macros
 
-宏是通过录制操作，将单个按键绑定为一连串复杂的指令或动作（如快速输入预设文本、执行多个快捷键组合、触发游戏中的技能连招等），从而实现一键完成多步操作的高效工具。
+A macro records a sequence of actions and binds it to a single key, so one keystroke can do much more — typing preset text, sending a key combination, firing off a game combo, and so on.
 
-## 录制
+## Recording
 
-默认情况下，总共可以配置16个宏，你可以在下拉框中选择要配置的宏。
+By default 16 macros can be configured. Pick the one you want to edit from the dropdown.
 
-接下来需要录制动作，你可以添加以下几种动作：
+Next, record the actions. The following actions are available:
 
-- 轻敲：快速敲击，即快速按下并抬起某个按键。
-- 按下：按下按键。
-- 抬起：抬起按键。
-- 延时：动作之间的延时。
-- 文本：即字面意思的文本。
+- Tap: a quick tap, i.e. pressing and releasing a key in one go.
+- Down: presses a key.
+- Up: releases a key.
+- Delay: a pause between actions.
+- Text: literal text, in other words a string.
 
-你可以根据需要调整动作的执行顺序。
+The order of the actions can be adjusted as you like.
 
-当完成录制后请保存变更。
+Save your changes once you are done recording.
 
-::: warning
-Marin Firmware 目前还不支持延时和文本，我们正在 🚧🚧🚧🚧🚧 中
+::: tip
+Marin Firmware supports delay and text. Please update your keyboard firmware to v2501 or later before using them.
+
+Update packages are being released keyboard by keyboard — see the [firmware library](../resource/dfu-package)
 :::
 
-## 使用宏
+## Using a macro
 
-配置完宏后，只需要选择想要绑定宏的按键，再点击应用当前宏，即可将宏绑定到按键。
+Once a macro is configured, select the key you want to bind it to and click "apply current macro" to assign it.

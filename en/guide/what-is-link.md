@@ -1,25 +1,25 @@
-# LINK 是什么？
+# What is LINK?
 
-LINK 是一款多功能集成、跨平台、高兼容性的键盘助手，专为支持客制化键盘而设计。帮助玩家更好的使用和个性化设置键盘是 LINK 的设计目标。
+LINK is a multi-functional, cross-platform and highly compatible keyboard assistant built for custom keyboards. Making keyboards easier to use and personalize is what LINK is designed for.
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-想要即刻尝试？跳到[快速开始](./getting-started)
+Want to try it right now? Jump to [Getting Started](./getting-started)
 
 </div>
 
 ![LINK](/preview.png)
 
-## 一路走来
+## The story so far
 
-LINK 诞生于 2020 年 7 月，我们按照规划逐步完成了 LINK 各项功能的开发，同时我们与多个制造商或团体进行了合作，推动更多的玩家了解和使用 LINK。
+LINK was born in July 2020. Since then we have been building its features step by step, working with manufacturers and communities to help more enthusiasts discover and use LINK.
 
-经过了多年的迭代，目前 LINK 已经更新到 4.0 版本。
+After years of iteration, LINK has reached version 4.0.
 
-LINK 4.0 基于 [WebHID API](https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API) 设计，浏览器即开即用，支持 Windows、macOS 和 Linux 主流系统，满足多样化需求。
+LINK 4.0 is built on the [WebHID API](https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API), so it runs right in your browser on Windows, macOS and Linux, with no installation required.
 
-## LINK+ 又是什么？
+## What about LINK+?
 
-你可以把 LINK+ 简单理解为 LINK 3.0。为了应对 QMK Firmware 社区对固件核心代码的调整，以及膨胀的用户需求，我们对 LINK 进行了全面重构。
+You can think of LINK+ as LINK 3.0. To keep up with changes to the QMK Firmware core and with growing user demands, we rebuilt LINK from the ground up.
 
-我们在 LINK+ 上投入了大量的精力，同时维护两个版本的 LINK 是难以持续的，因此离线版 LINK+ 已停止维护，我们推荐使用 Web 版 LINK。
+We put a lot of effort into LINK+, but maintaining two versions at the same time was not sustainable. The offline LINK+ is therefore no longer maintained — we recommend the web version of LINK.

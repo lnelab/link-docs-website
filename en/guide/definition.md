@@ -1,6 +1,6 @@
-# 定义
+# Definition
 
-这里提供一个完整的键盘定义案例
+Here is a complete example of a keyboard definition
 
 ```js
 {

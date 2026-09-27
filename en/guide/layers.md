@@ -1,36 +1,36 @@
-# 层
+# Layers
 
-## 键位映射和层
+## Keymaps and layers
 
-键位映射是由一个或多个层构成的数组。每个层本身也是一个由键值码组成的数组，用于定义每个物理按键对应的操作。
+A keymap is an array made of one or more layers. Each layer is itself an array of keycodes that defines what every physical key does.
 
-层可被独立激活或禁用。当多个层同时处于激活状态时，它们将叠加组合形成当前生效的层状态。由于激活的层会以堆栈形式叠加，较高层的键位将覆盖较低层的键位。
+Layers can be activated and deactivated independently. When several layers are active at the same time they are stacked on top of each other to form the effective layer state. Because active layers are stacked, keys in a higher layer override the same keys in lower layers.
 
-你可以根据偏好在不同的层上映射不同的键值组合，这意味着可以使用一个按键在不同的层输出不同的键值，就像是我们经常在笔记本电脑或者量产键盘上看到的 FN 键。
+You can assign different keycodes to different layers, which means a single key can output different keycodes depending on the layer — just like the Fn key found on laptops and off-the-shelf keyboards.
 
-## 在层间切换
+## Switching between layers
 
-我们可以通过层按键实现不同方式的层切换：
+Layers can be switched in several ways by using layer keys:
 
-- `DF(layer)` - 切换默认层。
+- `DF(layer)` - Sets the default layer.
 
-- `MO(layer)` - 瞬时激活层。按下时激活指定层，一旦释放键，层就会被停用。
+- `MO(layer)` - Momentarily activates a layer. The layer is activated while the key is held and deactivated as soon as it is released.
 
-- `LM(layer, mod)` - 瞬时激活层，但按下的同时会激活相应的 `mod`。
+- `LM(layer, mod)` - Momentarily activates a layer and activates the given `mod` at the same time.
 
-- `LT(layer, kc)` - 按住时瞬时激活层，并在轻按时发送按键值。仅支持 0-15 的层。
+- `LT(layer, kc)` - Momentarily activates a layer while held and sends the keycode on tap. Only layers 0-15 are supported.
 
-- `TG(layer)` - 切换层，如果层处于非激活状态，则激活它，反之亦然。
+- `TG(layer)` - Toggles a layer: it is activated when inactive and deactivated when active.
 
-- `TT(layer)` - 按住时瞬时激活层，当你松开键时，层将被停用（类似于 `MO` ）。如果您重复轻按键，层将在开启和关闭之间切换（类似于 `TG` ）。默认情况下需要连续轻按5次，但您可以通过定义 `TAPPING_TOGGLE` 来更改此值 - 例如，`#define TAPPING_TOGGLE 2` 表示只需两次轻按即可切换。
+- `TT(layer)` - Momentarily activates a layer while held, and deactivates it when released (similar to `MO`). If you tap the key repeatedly, the layer toggles on and off (similar to `TG`). By default five consecutive taps are required, but you can change this by defining `TAPPING_TOGGLE` — for example, `#define TAPPING_TOGGLE 2` means only two taps are needed.
 
-- `TO(layer)` - 激活指定层并停用其他所有层（默认层除外）。此功能特殊之处在于，不同于添加/删除一个层，而是完全替换当前的活动层，独特地允许你用较低的层替换较高的层。该功能在按键按下时激活。
+- `TO(layer)` - Activates the given layer and deactivates every other layer except the default one. Unlike adding or removing a layer, this completely replaces the active layers, which uniquely lets you replace a higher layer with a lower one. It takes effect when the key is pressed.
 
-- `OSL(layer)` - 瞬时激活层，直到下一个按键被按下。
+- `OSL(layer)` - Momentarily activates a layer until the next key is pressed.
 
-在键值菜单中我们预制了一部分层按键，你可以直接使用他们，如果这些按键不能满足你的需求，你也可以自定义想要的功能。
+Some layer keys are available out of the box in the keycode menu. If they do not cover what you need, you can also define your own.
 
-## 了解更多
+## Learn more
 
 [Keymap framework - how to define your keymap](https://github.com/tmk/tmk_core/blob/master/doc/keymap.md) by TMK Core
 

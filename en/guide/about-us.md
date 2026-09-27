@@ -1,9 +1,9 @@
-# 关于我们
+# About us
 
-LNE LAB 成立于2019年，我们致力于提供完整的外设客制化解决方案。
+LNE LAB was founded in 2019 and works on complete customization solutions for peripherals.
 
-LNE LAB 成立的初衷就是为了帮助客制化用户能够更好的感受客制化魅力，为协助更多的团长能够更完美的达到自己的设计目标，更专注的完成自己的开团组织工作，为客制化助力就是 LNE LAB 成立的愿景。
+LNE LAB exists to help enthusiasts get more out of the customization hobby, and to help group buy organizers reach their design goals and focus on running their projects. Supporting the community is what LNE LAB is here for.
 
-欢迎加入我们的QQ群 1107582873，我们一起讨论。
+Join our QQ group 1107582873 and let's talk.
 
-[去装备前线关注我们](https://www.zfrontier.com/app/user/vnZjR6zwvGAEe0)   
+[Follow us on zFrontier](https://www.zfrontier.com/app/user/vnZjR6zwvGAEe0)

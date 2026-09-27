@@ -1,10 +1,10 @@
-# 展览厅
+# Gallery
 
-展览厅中收录了基于 LNE LAB 解决方案的产品，以及合作伙伴的键盘。LINK+ 将为所有收录在库的产品的提供持久的支持。
+The gallery lists products built on the LNE LAB solution as well as keyboards from our partners. LINK provides lasting support for everything in the library.
 
-同时，我们也希望未来有更多的厂商和团体加入到 LINK+ 伙伴计划中来。
+We also hope to welcome more manufacturers and communities to the LINK partner program.
 
-| 键盘款式                                                               | 制造厂商/团体          |
+| Keyboard                                                               | Manufacturer / Group   |
 | ----------------------------------------------------------------------| ----------------------|
 | [Uni660](https://www.zfrontier.com/app/eqp/0jW73G5w4Nwn)              | SIRIUS                |
 | [Ursa Major](https://www.zfrontier.com/app/flow/4oLWEEBp0oAw)         | SIRIUS                |
