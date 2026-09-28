@@ -98,7 +98,8 @@ function sidebarResource() {
         {
             text: '资源',
             items: [
-                { text: '固件升级库', link: 'dfu-package' }
+                { text: '固件升级库', link: 'dfu-package' },
+                { text: '固件变更日志', link: 'dfu-changelog' }
             ]
         }
     ]

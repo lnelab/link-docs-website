@@ -98,7 +98,8 @@ function sidebarResource() {
         {
             text: 'Resources',
             items: [
-                { text: 'Firmware library', link: 'dfu-package' }
+                { text: 'Firmware library', link: 'dfu-package' },
+                { text: 'Firmware changelog', link: 'dfu-changelog' }
             ]
         }
     ]
